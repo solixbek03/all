@@ -1,0 +1,309 @@
+body{
+  width: 1600px;
+}
+
+
+.menu{
+  display: flex;
+  
+}
+
+.menu-img-link{
+  margin: 0;
+  margin-top: 55px;
+  margin-left: 105px;
+}
+
+.menu-list{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 545px;
+  margin: 0;
+  margin-left: 512px;
+  margin-top: 55px;
+  padding: 0;
+  padding-top: 18px;
+}
+
+.menu-link{
+  text-decoration: none;
+  color: black;
+}
+
+.menu-border{
+  font-weight: bolder;
+}
+
+.hero{
+  display: flex;
+  margin: 0;
+  margin-top: 87px;
+  margin-left: 105px;
+}
+
+.hero-box{
+  width: 445px;
+  margin-top: 100px;
+  padding: 0;
+}
+.hero-img{
+  margin-left: 205px;
+}
+
+.hero-header{
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+color: #000000;
+}
+
+.hero-text{
+  font-style: normal;
+font-weight: 300;
+font-size: 21px;
+line-height: 32px;
+color: #7D7987;
+}
+
+.hero-link{
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 60px;
+text-decoration: none;
+background-color: #458FF6;
+border-radius: 55px;
+padding: 10px;
+color: #FFFFFF;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  margin-top: 113px;
+  margin-left: 20px;
+}
+
+.line {
+  width: 50px;
+  height: 1px;
+  background-color: #8B8371;
+  margin: 0;
+  margin-left: 720px;
+  margin-bottom: 10px;
+}
+
+.info-header{
+  font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 56px;
+color: #000000;
+margin: 0;
+margin-left: 650px;
+margin-bottom: 10px;
+
+}
+
+.info-text{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #7D7987;
+  width: 900px;
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.info-list{
+  list-style: none;
+  display: flex;
+  width: 900px;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-left: 350px;
+}
+
+.info-items{
+  width: 250px;
+  margin: 0;
+  margin: 25px;
+}
+
+.info-link{
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #458FF6;
+  padding: 10px;
+  color: #FFFFFF;
+  border-radius: 55px;
+}
+
+
+.right-top{
+  margin-bottom: 229px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.href-button{
+  margin-top: 16px;
+  text-decoration: none;
+  color: #4089ED;
+  border: 1px solid #4089ED;
+  border-radius: 24px;
+  padding: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+.right-bottom{
+  flex-direction: row-reverse;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header-bottom{
+  padding-top: 48px;
+  padding-bottom: 105px;
+  margin-left: 185px;
+  margin-top: 386px;
+  background-color: #5B9BF2;
+  text-align: center;
+  border-radius: 24px;
+  width: 1120px;
+  height: 217px;
+}
+
+
+.bottom-h2{
+  color: #fff;
+}
+
+
+.line-wight{
+  display: inline-block;
+  background: #fff;
+  border-radius: 6px;
+  width: 56px;
+  height: 2px;
+}
+
+
+.bottom-down{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.down-left{
+  display: flex;
+  align-items: center;
+}
+
+.bottom-img{
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+
+.down-strong{
+  color: #fff;
+}
+
+.down-p{
+  color: #fff;
+}
+
+.bottom-blockquote{
+  color: #fff;
+}
+
+
+.bottom-div{
+  text-align: center;
+}
+
+.under-bottom{
+  margin-top: 142px;
+  
+  margin-bottom: 183px;
+
+}
+
+.under-top{
+  text-align: center;
+}
+
+.under-ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.under-li{
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+
+.under-p{
+  color: #8E8999;
+}
+
+
+.under-href{
+  text-decoration: none;
+  color: #4089ED;
+}
+
+.under-buttom{
+  text-align: center;
+}
+
+.lowest{
+  background-color: #5B9BF2;
+  padding-top: 54px;
+  padding-bottom: 59px;
+  padding-right: 19px;
+  padding-left: 13px;
+}
+
+.div-white{
+  display: inline-block;
+}
+
+
+.p-white{
+color: #fff;
+}
+
+
+.div-white-second{
+  display: inline-block;
+}
+
+
+.ul-end{
+  display: inline-block;
+  width: 300px;
+  list-style: none;
+}
+
+
+.href-white{
+  text-decoration: none;
+  color: #fff;
+}

@@ -1,0 +1,126 @@
+/videos:
+  get:
+    tags:
+      - videos
+    responses:
+      '200':  
+        description: all videos
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/VideoResponse'
+
+
+/videos?userId:
+  get:
+    tags:
+      - videos
+    parameters:
+      - name: userId
+        in: query
+        description: videos to filter by userId
+        required: false
+    responses:
+      '200':  
+        description: all videos
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/VideoResponse'
+
+/videos?search:
+  get:
+    tags:
+      - videos
+    parameters:
+      - name: search
+        in: query
+        description: videos to filter by title
+        required: false
+    responses:
+      '200':  
+        description: all videos
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/VideoResponse'  
+
+/admin/videos:
+  get:
+    tags:
+      - videos
+    responses:
+      '200':  
+        description: all videos
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/VideoResponse'
+    security:
+        - Bearer:
+            type: oauth2
+  post:
+    tags:
+      - videos
+    requestBody:
+      description: post admin video
+      content:
+        multipart/form-data:
+          schema:
+            $ref: '#/components/schemas/PostVideo'
+      required: true   
+    responses:
+      '201':  
+        description: all videos
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/VideoResponse'
+    security:
+        - Bearer:
+            type: oauth2 
+
+/admin/videos/{videoId}:
+  put:
+    tags:
+      - videos
+    parameters:
+      - name: videoId
+        in: path
+        description: video update title
+        required: true
+    requestBody:
+      description: put video title
+      content:
+        multipart/form-data:
+          schema:
+            $ref: '#/components/schemas/PutVideo'
+      required: true      
+    responses:
+      '200':  
+        description: video update
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/VideoResponse'
+    security:
+        - Bearer:
+            type: oauth2
+  delete:
+    tags:
+      - videos
+    parameters:
+      - name: videoId
+        in: path
+        description: video delete
+        required: true
+    responses:
+      '200':  
+        description: video delete
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/VideoResponse'
+    security:
+        - Bearer:
+            type: oauth2                                                                   

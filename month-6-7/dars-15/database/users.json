@@ -1,0 +1,38 @@
+[
+    {
+        "userId": 1,
+        "username": "ali",
+        "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225",
+        "avatar": "ali.png"
+    },
+    {
+        "userId": 2,
+        "username": "vali",
+        "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225",
+        "avatar": "1670333368585image_2021-06-18_12-00-04.png"
+    },
+    {
+        "userId": 3,
+        "username": "hikmat",
+        "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225",
+        "avatar": "1670334034600image_2021-06-18_12-00-04.png"
+    },
+    {
+        "userId": 4,
+        "username": "Anvar",
+        "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225",
+        "avatar": "1671545973719homeworkNews.png"
+    },
+    {
+        "userId": 5,
+        "username": "salom",
+        "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225",
+        "avatar": "1672730937541images.jpeg"
+    },
+    {
+        "userId": 6,
+        "username": "salomafafa",
+        "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225",
+        "avatar": "1672730947690images.jpeg"
+    }
+]

@@ -1,0 +1,19 @@
+/* .text2{
+  color: crimson;
+  background-color: darkgray;
+}
+
+
+p{
+  color: rgb(225, 218, 218);
+      background: rgb(8, 5, 5);
+} */
+/* .text2{
+  text-decoration: underline;
+
+} */
+.list{
+  text-transform:none;
+  align-items: center;
+  border: 6px solid seashell
+}

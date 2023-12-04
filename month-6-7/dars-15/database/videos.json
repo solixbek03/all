@@ -1,0 +1,26 @@
+[
+    {
+        "videoId": 1,
+        "title": "isdbfniajd",
+        "video": "dars.mp4",
+        "created_at": "2020-10-11T14:00",
+        "size": 234512,
+        "userId": 1
+    },
+    {
+        "videoId": 2,
+        "title": "hazil video 2",
+        "video": "16703359581882022-12-0617-33-21.mp4",
+        "size": 147666340,
+        "created_at": 1670335958189,
+        "userId": 3
+    },
+    {
+        "videoId": 3,
+        "title": "olcha",
+        "video": "16705094714092022-12-0818-34-02.mp4",
+        "size": 24753443,
+        "created_at": 1670509471409,
+        "userId": 1
+    }
+]

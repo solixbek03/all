@@ -1,0 +1,41 @@
+		NODE.js
+
+1:http, fs , path
+2: bizaga yengi sever ochishga yordam beradi : 
+const server = http.createServer(httpServer)
+
+server.listen(PORT, () => console.log('server ready at'));
+
+3: single protses  == methodan req va res keladi REQdan malumot olinadi RESdan malumot jonatiladi va single thread
+
+4:settimeout, process.nextTick
+
+5:global object
+
+6: process.nexttick    process.setimmediate dan keyin ishlaydi
+
+7: boshqa fayldan turip faylga malumot yozishda yoki oqishda ishlatiladi agar fayl yoq bolsa u faylni ochip yuboradi unga path yordami bilan 
+
+8: REQdan malumot olinadi RESdan malumot jonatiladi HEADERSdan token keladi
+
+9: GET ochiq malumot oladi vs POST yopiq malumot jonatadi
+
+10: PUT yoq narsani ham update qiladi vs patch yoq narsani update qilmaydi
+
+11:masalan token tekshiradigan funcsiya yoki malumotni tekshiradigan funcsiya qoysa boladi
+
+12:npm – librarylar online saqlanadigon joyi , package.json bu biza appga yozgan librarylani linklari va ularni versiyalari va appi boshqarish mumkin bogan joy
+
+13: GraphQL - bu mavjud ma'lumotlar bilan so'rovlarni bajarish uchun Facebook tomonidan ishlab chiqilgan dastur qatlamining server tomoni texnologiyasi. REST - bu veb-xizmatlarni yaratish uchun cheklovlar to'plamini belgilaydigan dasturiy ta'minot arxitektura uslubi.
+
+14: type schema or resolvers
+
+15: So'rovlar va mutatsiyalarga qo'shimcha ravishda GraphQL uchinchi operatsiya turini qo'llab-quvvatlaydi:subscription
+
+16: malumot olish
+
+17:dotenvda
+
+18: SQL bu tartibli vs NOSQL tartibsiz
+
+19: orm sequelize or typeorm

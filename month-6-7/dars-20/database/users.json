@@ -1,0 +1,44 @@
+[
+    {
+        "userId": 1,
+        "username": "ali",
+        "password": "123456789",
+        "avatar": "rasm.png",
+        "socketId": null
+    },
+    {
+        "userId": 2,
+        "username": "salim",
+        "password": "123456789",
+        "avatar": "rasm.png",
+        "socketId": null
+    },
+    {
+        "userId": 3,
+        "username": "hikmat",
+        "password": "123456789",
+        "avatar": "rasm.png",
+        "socketId": null
+    },
+    {
+        "userId": 4,
+        "username": "tohir",
+        "password": "123456789",
+        "avatar": "rasm.png",
+        "socketId": null
+    },
+    {
+        "userId": 5,
+        "username": "salax",
+        "password": "12345678",
+        "avatar": "1671355064598channels4_profile.jpg",
+        "socketId": null
+    },
+    {
+        "userId": 6,
+        "username": "nosirjon",
+        "password": "123456789",
+        "avatar": "1671355185155images.jpeg",
+        "socketId": null
+    }
+]

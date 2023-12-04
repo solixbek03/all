@@ -1,0 +1,17 @@
+.with-1{
+  /* max-width: 500px; */
+  margin: 0;
+  padding: 15px 5px;
+  background-color: #719b89;
+  /* max-height: 300px; */
+}
+
+.with-2:nth-last-child(){
+  /* min-width: 300px; */
+  /* max-height: 700px; */
+  margin: 0;
+  padding: 15px 5px;
+  background-color: aqua;
+  /* max-height: 300px; */
+  /* min-height: 700px; */
+}

@@ -1,0 +1,119 @@
+
+1 VIEW vs TABLE
+     
+     VIEW SQL query natijasidir va u virtual jadvaldir, TABLE esa har qanday ob'ekt haqidagi ma'lumotlarni saqlaydigan va kerak bo'lganda ushbu ma'lumotlarni olish uchun ishlatiladigan columnlar va rowlardan iborat.
+
+2 where vs having
+
+    where bitta qator bilan ishlaydi, funcsiya qabul qilmaydi, delete update insert lar bilan ishlasa boladi
+    
+    having ustunlar bilan ishlaydi, funcsiya qabul qiladi, delete update insert lar bilan ishlasa bolmaydi
+
+3 union vs union all
+
+    union 2 ta TABLE ni  filtirlab qoshadi
+    
+    union all 2 ta TABLE ni ichida bir xil bolsa qoshadi 
+
+4 join vs union vs subQuery
+
+    join defoul inner join boladi 2 ta TABLE ni ichida bir xil bolsa qoshadi 
+
+    union union 2 ta TABLE ni  filtirlab qoshadi
+
+    subQuery where yani queryning ichidagi query :
+    select * from users
+    where id in (select * from users
+    where age > 17);
+
+5 topomadim
+
+6 primary key 
+    primary key idning kalitligini anglatadi bitta objectda bitta primary key boladi
+
+7 forigen key
+    FOREIGN KEY cheklovi ikkita jadvalni bir-biriga bog'lash uchun ishlatiladigan kalitdir.
+
+8 qanday join turlari  bor 
+    natural join, left, right, inner join yoki join, cros join
+
+9 type or domain
+    type: int , serial, varchar , char, text, date
+    domain: bilmadim
+
+10 funcsiya vs pracedura
+    funcsiya kelgan qiymatni ozgartirip uni qaytara oladi
+    pracedura kelgan qiymatni ozgartirip uni qaytara olmaydi yani return unda amallar bajarsa ham boladi yani
+    delete update insert kabi
+
+11 trigger nma
+    trigger bu malumot update delete insert yoki funcsiya ishlashidan oldin yoki keyin qilishga qoyilgan funcsiya deb chunsayam boladi yoki amal masalan data delete qilingandan keyin eski malumotni olip boshqa TABLEga jonatadi
+
+12 drop vs delete vs trancute
+    drop polnisti TABLEni ochirib yuboradi
+    delete rowni ochirib yuboradi
+    trancute tablni yangiday qilip qoydi
+
+13 Constraints
+    Constraints : not null, primary key, forigen key, UNIQUE
+
+14 alias nma?
+    alias bu as yani vaqtinchalik nomlab olish masalan
+    select * from users as u 
+    where u.id < 1
+
+15 a tabldan b TABLEga qanday malumot kochiriladi 
+    joinlar orqali
+
+16 timetamp vs timetamptz
+    timetamp bu vaqtni taype yani global vaqti
+    timetamptz bu ozingizni regioningizni vaqti
+
+17 qanday qilib tablga column qoshadi
+    alter bilan
+    ALTER TABLE Customers
+    ADD Email varchar(255); yoki DROP COLUMN column_name;
+
+18 commit vs rollback
+    commit bu tranzaksiyani saqlanadigon
+    rollback bu tranzaksiyani bekor qiladi
+
+19 commentlar sqlda qanday
+    commentlar : --salom yoki /* salom */
+
+20 schema nma
+    SQL ma'lumotlar bazasida sxema ma'lumotlarning mantiqiy tuzilmalari ro'yxatidir
+
+21 psql nma
+relyatsion ma'lumotlar bazasi va database
+
+22 record nma
+    record qanday malumot turi berilsa osha data taypini oladi
+
+23 offcet nma vazifasi
+    offcet jovobni chiqaryotganda nechta berilsa oshani tashlab otip ketadi
+    offcet masalan tableda 8 ta row bolsa ofcet 3 limit 4 qilinsa 4, 5,6,7 ni oladi 
+
+24 json vs jsonb
+    json qanday bolsa shunday oladi
+    jsonb filtirlab oladi
+
+25 index nmaga kerak
+    Oddiy qilib aytganda, indeks jadvaldagi ma'lumotlarga ko'rsatgichdir.
+    CREATE INDEX index_name
+    ON table_name (column_name);
+
+26 varchar char text
+    varchar ga cheklov bersa boladi va boshliqlarni qabul qilmaydi
+    text beskanechniy
+    char  ga cheklov bersa boladi va boshliqlarni qabul qiladi
+
+27 cascade vs RESTRICT
+    cascade referenses malumotlarni ochirishga ruxsat beradi
+    RESTRICT referenses malumotlarni ochirishga ruxsat bermaydi va ochirish error boladi bu ozi defoult
+
+28 transaction paytida rallback qilinsa insert qilinayotgan table serial ozgaradimi?
+    yoq
+
+29 bir xil nomli funcsiyani qanday ochiradi
+    funcsiyani argumenlari bilan bittama bitta erinmasdan

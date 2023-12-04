@@ -1,0 +1,17 @@
+.box1{
+  width: 100px;
+  height: 200px;
+  background-color: black;
+}
+
+.box2{
+  width: 100px;
+  height: 200px;
+  background-color: hsla(57, 47%, 35%, 0.4);
+}
+
+.strong{
+  display: inline;
+  width: 400px;
+  height: 400px;
+}

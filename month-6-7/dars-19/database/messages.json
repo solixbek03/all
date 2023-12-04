@@ -1,0 +1,30 @@
+[
+    {
+        "messageId": 1,
+        "from": 1,
+        "to": 2,
+        "message": "salom",
+        "created_at": "13:00"
+    },
+    {
+        "messageId": 2,
+        "from": 2,
+        "to": 1,
+        "message": "salom",
+        "created_at": "13:00"
+    },
+    {
+        "messageId": 3,
+        "from": 3,
+        "to": 1,
+        "message": "salom",
+        "created_at": "13:00"
+    },
+    {
+        "messageId": 3,
+        "from": 3,
+        "to": 1,
+        "message": "salom",
+        "created_at": "13:00"
+    }
+]

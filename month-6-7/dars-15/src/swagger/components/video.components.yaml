@@ -1,0 +1,37 @@
+components:
+  schemas:
+    VideoResponse:
+      type: object  
+      properties:
+        videoId: 
+          type: integer
+        title:
+          type: string
+        video: 
+          type: string
+        size: 
+          type: string 
+        created_at: 
+          type: string 
+        user: 
+          type: object
+          properties:
+            userId:
+              type: integer
+            username:
+              type: string
+            avatar: 
+              type: string
+    PostVideo:
+      type: object  
+      properties:
+        title:
+          type: string
+        video: 
+          type: string
+          format: binary
+    PutVideo:
+      type: object  
+      properties:
+        title:
+          type: string    

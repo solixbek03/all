@@ -1,0 +1,23 @@
+[
+    {
+        "userId": 1,
+        "username": "solixbek",
+        "password": "12344321",
+        "avatar": "1671274385099channels4_profile.jpg",
+        "socketId": null
+    },
+    {
+        "userId": 2,
+        "username": "ali",
+        "password": "12345678",
+        "avatar": "1671274467809images.jpeg",
+        "socketId": null
+    },
+    {
+        "userId": 3,
+        "username": "salim",
+        "password": "12345678",
+        "avatar": "1671274467809images.jpeg",
+        "socketId": null
+    }
+]

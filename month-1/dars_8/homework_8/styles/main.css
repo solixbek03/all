@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.container{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+
+.box1{
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box2{
+  display: flex;
+  padding-top: 15px;
+  padding-left: 40px;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;background-color: blue;
+  box-shadow: 0px 50px tomato,
+              200px 0px blueviolet,
+              200px 50px brown,
+              200px -50px gold,
+              -200px 50px gray,
+              -200px -50px green,
+              -200px 0px hotpink,
+              0px -50px saddlebrown;
+}
